@@ -7,12 +7,50 @@
 .food-pic {
     height: auto;
     max-width: 500px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner {
+    border-radius: .5em;
+    font-size: 1em;
+    background-color: gold;
+    max-width: 30em;
+    padding: 0.1em;
+    text-align: center;
 }
 
 h1 {
-    font-size: 36pt;
-    background-color: gold;
     color: #222425;
-    padding: 5px;
+    background-color: transparent;
+}
+
+.grid {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 0.5em;
+    flex-direction: row;
+}
+
+.home-link {
+    border: solid 0.1em white;
+    border-radius: 0.4em;
+    padding: 0.5em;
+    width: 6em;
+    text-align: center;
+}
+
+.nav-button {
+    border: solid 0.1em white;
+    border-radius: 0.4em;
+    padding: 0.5em;
+    width: 10em;
     text-align: center;
 }
